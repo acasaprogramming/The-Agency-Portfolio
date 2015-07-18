@@ -1,0 +1,126 @@
+/*==========  TOP HEADER STYLE   ==========*/
+.header-top 
+{
+	background-color: @color-accent;
+	color: @color-text-light;
+	padding: @margin/2 0;
+
+	ul 
+	{
+		margin-bottom: 0;
+	}
+
+	.contact
+	{
+		.fa
+		{
+			margin-right: @margin/2;
+		}
+		li 
+		{
+			margin-right: 2.25rem;
+		}
+	}
+	.social-icons 
+	{
+		li 
+		{
+			margin-right: @margin/2;
+
+			&:last-child
+			{
+				margin-right: 0;
+			}
+		}
+	}
+
+	a 
+	{
+		color: @color-text-light;
+		&:hover 
+		{
+			color: darken(@color-text-light, 15%);
+		}
+	}
+}
+
+/*==========  HEADER STYLE   ==========*/
+.navbar-fixed-top
+{
+	top:0;
+
+	.navbar-right
+	{
+		margin-right: 0;
+	}
+}
+
+.navbar 
+{
+	background-color: #fff;
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+
+	.logo 
+	{
+		display: inline-block;
+		margin-right: @margin/2;
+	}
+
+	h1 
+	{
+		color: @color-accent;
+		display: inline-block;
+		font-size: 1.125rem;
+		text-transform: uppercase;
+    	line-height: 1.1;
+    }
+}
+
+.navbar-toggle
+{
+	padding: @margin/2;
+
+	.icon-bar
+  	{
+  		background-color: @color-text-light; 
+  	}
+}
+
+.navbar-nav > li 
+{
+	margin-top: 1.3125rem;
+	margin-right: @margin;
+	&:last-child
+	{
+		margin-right: 0;
+	}
+}
+.navbar-nav > li > a
+{
+	font-family: @font-header;
+	font-size: 0.875rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: @color-text;
+}
+.navbar-nav > .open > a,
+.navbar-nav > .open > a:hover,
+.navbar-nav > .open > a:focus,
+.navbar-nav > .active > a, 
+.navbar-nav > .active > a:hover, 
+.navbar-nav > .active > a:focus,
+.navbar-nav > li > a:hover
+{
+	color: @color-accent;
+	border-bottom: 3px solid @color-accent;
+	padding-bottom: 2.0625rem;
+	background: none;
+}
+
+body 
+{
+	position: relative; //for scrollspy
+}

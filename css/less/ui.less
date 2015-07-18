@@ -1,0 +1,123 @@
+/*=================================
+=            UI STYLES            =
+=================================*/
+
+/*==========  BUTTONS  ==========*/
+
+.button-lg
+{
+	padding: @margin/2 @margin;
+}
+
+.button-md
+{
+	padding: @margin/4 @margin/2;
+}
+
+.button 
+{
+	border-radius: 5px;
+	border: 2px solid @color-accent;
+
+	font-family: @font-header;
+	font-size: 0.875rem;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	.transition(all);
+}
+
+
+.button-ghost
+{
+	color: @color-accent;
+
+	&:hover
+	{
+		color: #fff;
+		background-color: @color-accent;
+	}
+}
+
+.button-secondary
+{
+	border: 1px solid @color-border;
+	color: @color-text;
+	font-weight: 400;
+	background: transparent;
+
+	&:hover
+	{
+		color: #fff;
+		background-color: @color-accent;
+		border: 1px solid @color-accent;
+		font-weight: 700;
+	}
+}
+
+.button-ghost-inverse
+{
+	color: @color-text-light;
+	border-color: @color-text-light;
+	background: transparent;
+
+	&:hover
+	{
+		color: #fff;
+		background-color: darken(@color-accent, 15%);
+		border-color: darken(@color-accent, 20%);
+		.transition(all);
+	}
+}
+
+.button-full
+{
+	color: @color-text-light;
+	background-color: @color-accent;
+
+	&:hover
+	{
+		color: #fff;
+		background-color: darken(@color-accent, 15%);
+		.transition(all);
+	}
+}
+
+/*==========  FORMS  ==========*/
+input[type="text"],
+input[type="email"],
+textarea
+{
+	width: 100%;
+	padding: @margin/4 @margin/2;
+	border: 1px solid @color-border;
+	border-radius: 5px;
+
+	font-style: italic;
+
+	&:focus,
+	&:hover
+	{
+		border: 1px solid @color-accent;
+		.transition(all);
+	}
+}
+
+textarea
+{
+	max-height: (@margin*10);
+	max-width: 100%;
+}
+
+label
+{
+	display: block;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: @font-header;	
+}
+
+input[type="submit"] 
+{
+	background: transparent;
+}

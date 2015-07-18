@@ -1,0 +1,272 @@
+@media (max-width: 1200px) 
+{
+	/*==========  NAVBAR  ==========*/	
+	.navbar-header
+    {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right
+    {
+        float: none !important;
+        margin:0;
+    }
+    .navbar-toggle 
+    {
+        display: block;
+        margin: @margin;
+    }
+    .navbar-collapse.collapse 
+    {
+        display: none!important;
+    }
+    .navbar-nav 
+    {
+        float: none!important;
+	}
+	.navbar-nav>li 
+	{
+        float: none;
+    }
+    .collapse.in
+    {
+  		display:block !important;
+	}
+    .navbar-collapse.in 
+    {
+        overflow-y: auto !important;
+    }
+	.navbar-nav .open .dropdown-menu 
+	{
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        box-shadow: none;
+    }
+    .navbar-nav
+    {
+    	background-color: @color-alternate;
+    	border: 2px solid @color-accent;
+		border-radius: 5px;
+		margin-bottom: @margin;
+    }
+    .navbar-nav > li
+    {
+    	margin: @margin/2 0;
+		padding: 0;
+    }
+    .navbar-nav > li > a
+	{
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+    .navbar-nav > .open > a,
+	.navbar-nav > .open > a:hover,
+	.navbar-nav > .open > a:focus,
+	.navbar-nav > .active > a, 
+	.navbar-nav > .active > a:hover, 
+	.navbar-nav > .active > a:focus,
+	.navbar-nav > li > a:hover
+	{
+		border: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	/*==========  TEAM SECTION  ==========*/
+	.team-box .team-name
+	{	
+		padding: @margin/2;
+	}
+
+	/*==========  TESTIMONIALS SECTION  ==========*/
+	.fancy-quote
+	{
+		width: 70%;
+	}
+}
+
+@media (max-width: 990px) 
+{
+	/*==========  CTA SECTIONS  ==========*/
+	.section-cta p 
+	{
+		font-size: 1.125rem;
+	}
+
+	/*==========  TEAM SECTION  ==========*/
+	.team-box .team-name
+	{	
+		padding: @margin/2 @margin;
+	}
+	
+}
+
+@media (max-width: 767px) 
+{
+	/*==========  SERVICE SECTION  ==========*/
+	.service-box
+	{
+		margin-bottom: @margin*2;
+	}
+	.section-services
+	{
+		margin-bottom: -@margin*2;
+	}
+
+	/*==========  ABOUT US SECTION  ==========*/
+	.accordions
+	{
+		margin-bottom: @margin*2;
+	}
+
+	/*==========  CONTACT SECTION  ==========*/
+	.contact-information
+	{
+		text-align: center;
+		margin-bottom: @margin;
+		li 
+		{
+			display: inline-block;
+			padding-right: @margin/2;
+			margin-left: @margin;
+		}
+		span 
+		{
+			display: block;
+		}
+	}
+	.contact-form .form-button
+	{
+		text-align: center;
+	}
+}
+
+@media (max-width: 680px) 
+{
+	.section-cta 
+	{
+		.button
+		{
+			padding: @margin/4 @margin/2;
+		}
+		p 
+		{
+			font-size: 1rem;
+		}		
+	}
+}
+
+@media (max-width: 630px) 
+{
+	/*==========  TOP HEADER  ==========*/
+	.header-top
+	{
+		.contact
+		{
+			display: none;
+		}
+		.social-icons
+		{
+			text-align: center;
+			float: none !important;
+		}
+	}
+
+	/*==========  HERO SECTION  ==========*/
+	.hero 
+	{
+		h2
+		{
+			font-size: 2.25rem;
+		}
+		.hero-subheading
+		{
+			font-size: 1.125rem;
+		}	
+		.hero-buttons .button 
+		{
+			padding: @margin/4 @margin/2;
+		}	
+	}
+
+	/*==========  CTA SECTION  ==========*/
+	.section-cta 
+	{
+		text-align: center;
+	}
+	.cta-button
+	{
+		margin-top: @margin;
+		float: none;
+		text-align: center;
+	}
+}
+
+@media (max-width: 500px)
+{ 
+	.hero-subheading
+	{
+		line-height: 1.5;
+	}
+	.hero-buttons
+	{
+		.button
+		{
+			padding: @margin/4 @margin/2;
+		}
+	}
+}
+@media (max-width: 450px)
+{
+	/*==========  HERO SECTION  ==========*/	
+	.hero 
+	{
+		h2 span
+		{
+			display: block;
+		}
+	}
+
+	/*==========  PORTFOLIO SECTION  ==========*/
+	.portfolio-sorting li 
+	{
+		padding: 0;
+	}
+	
+
+	/*==========  TEAM SECTION  ==========*/
+	.team-box .team-name
+	{	
+		padding: @margin/2;
+		font-size: 0.875rem;
+	}
+}
+
+@media (max-width: 398px)
+{
+	.hero
+	{
+		.hero-buttons a:last-child
+		{
+			margin-top: @margin/2;
+			display: inline-block;
+		}
+	}
+	.portfolio-sorting li:last-child 
+	{
+		margin-top: @margin/2;
+	}
+}
+
+@media (max-width: 300px)
+{
+	.navbar-brand h1
+	{
+		display: none;
+	}
+}

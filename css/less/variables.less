@@ -1,0 +1,32 @@
+/*=============================================
+=            LESS VARIABLES            =
+=============================================*/
+
+
+/*==========  COLORS  ==========*/
+
+@color-text:	    #808080; //regular text
+@color-text-light:	#FFF; //light text
+@color-accent:		#2980b9; 
+@color-alternate:	#f1f5f8; //very light blue
+@color-dark:		#34495e; //dark blue
+@color-border: 		#c7cad1; //light grey
+@color-light-bg:	#f5f5f5; //very light grey
+
+
+/*==========  TYPOGRAPHY  ==========*/
+
+@font-size: 1em; //16px
+@baseline:  (@font-size * 1.5); //@font-size*1.5
+@margin: 1.5rem; 
+
+@font-body:   "Open Sans", Helvetica, Arial, sans-serif;
+@font-header: "Roboto", Helvetica, Arial, sans-serif;
+
+
+/*==========  MIXINS  ==========*/
+
+.transition (@property: color, @duration: .3s, @effect: ease-in)
+{
+	transition: @property @duration @effect;
+}

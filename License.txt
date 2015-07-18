@@ -1,0 +1,33 @@
+License Agreement
+
+All resources created by AcasA Programming are provided "as is" and are free for both,
+personal or commercial projects, unless stated otherwise.
+Attribution is appreciated, but not required.
+
+
+You may:
+
+- Use the techniques demonstrated in our tutorials or the resources available for download,
+  in both personal or commercial projects
+
+- Customize the resources to suit your requirements and include them in your projects
+
+
+
+You may NOT:
+
+- Redistribute, frame, sell or sub-license the files found on this site
+
+- Directly link to the download file
+
+
+
+NOTES:
+
+    The trademarks and logos on the sites belong to AcasA Programming or to others, and you may not use these without the approval of the owner.
+    
+    While we try our best to keep our content up to date, all tutorials/articles presented represent our own take/approach on the 
+    latest technologies and techniques and we are not responsible for any problems caused by 3rd party technologies updates, 
+    use of wrong/different version number etc. as well as by the misuse of the information provided.
+    
+    For any other questions, requests and suggestions, please use the contact form on our website.
