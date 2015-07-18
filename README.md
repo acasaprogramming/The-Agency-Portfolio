@@ -3,7 +3,7 @@ The Agency Portfolio is a modern design agency portfolio built with Bootstrap 3 
 
 In this tutorial you'll learn how to build an awesome responsive and filterable portfolio using Bootstrap 3 and Shuffle.JS.
 
-[Read PSD to HTML tutorial here](photoshop-to-html-the-agency-portfolio-conversion-part-1) or [Read the Photoshop design tutorial here](http://acasaprogramming.ro/create-a-design-agency-portfolio-in-photoshop-part-1/)
+[Read PSD to HTML tutorial here](http://acasaprogramming.ro/photoshop-to-html-the-agency-portfolio-conversion-part-1) or [Read the Photoshop design tutorial here](http://acasaprogramming.ro/create-a-design-agency-portfolio-in-photoshop-part-1/)
 
 [View portfolio demo here](http://demo.acasaprogramming.ro/the-agency/)
 
